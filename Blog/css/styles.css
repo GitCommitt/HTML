@@ -1,0 +1,237 @@
+*{
+    padding: 5;
+    margin: 5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.button{
+    border-radius: 15px;
+    width: 120px;
+    height: 70px;
+    margin-bottom: auto;
+}
+
+.Home{
+    border-radius: 5px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    text-align: center;
+}
+
+header, footer{
+    background: rgb(132, 200, 103);  
+    color: white;
+    height: 100px;
+    width: 1000px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    margin-bottom: 20px; 
+    border-radius: 15px;
+    border: 5px solid black;
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.035);
+}
+
+li{
+    width: 100%;
+    height: 100%;
+    background: rgb(87, 108, 72);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+ol{
+    align-items: center;
+    background-color: rgb(132, 200, 103);  
+    border-radius: 100px;
+
+}
+
+ol:hover{
+    transform: scale(1.025);
+}
+
+
+nav > ul{
+    height: 100%;
+    margin: 0, auto;
+}
+
+
+.body1{
+    text-align: center;
+    font-size: 20px;
+    background-image: url('https://wallpapers.com/images/hd/light-green-background-3m1s3691d543m9xn.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-weight: 400;
+    background-size: cover;
+}
+
+img{
+    width: 600px;
+    height: 337px;
+}
+
+.img1{
+    align-items: left;
+}
+
+.img1:hover{
+    transform: scale(1.05);
+}
+
+
+h1{
+    line-height: 1.5em;
+    letter-spacing: 0.025em;
+    font-size: 250%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+article{
+    width:60%;
+    margin: 0 auto;
+    border: 5px solid black;
+    padding: 40px;
+    border-radius: 20px; 
+    background-image: url('https://wallpapers.com/images/hd/light-green-background-3m1s3691d543m9xn.jpg');
+    background-size: cover;
+
+}
+
+
+p:last-of-type{
+    margin-bottom: 0;
+}
+
+p{
+    margin-bottom: 40px;
+}
+
+
+figcaption{
+    font-size: 80%;
+    font-family: italic;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+audio{
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    color: green;
+}
+
+video{
+    width: 75%;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+
+footer{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px, solid, black;
+    border-radius: 15px;
+}
+
+footer > p{
+    width: 60vw;
+    margin-left: 0 auto;
+    padding-left: 40px;
+    height: 100%;
+    width: 100%;
+}
+
+.flower{
+    border-top: 4px solid black;
+}
+
+.top{
+    width: 50px;
+    height: 50px;
+    background: rgb(0, 0, 0);
+    border: none;
+    font-size: 125%;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 100px;
+    color: white;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright1{
+    background-image: url('https://cdn.discordapp.com/attachments/910568349619073034/1291825771802787942/Background.jpg?ex=67018200&is=67003080&hm=9f254a8cc80a7f1e1eb4e4952b51db97d6815027b6f6ea32ad9a71e2520be211&');
+    background-size: cover;
+}
+
+
+.div1{
+    font-size: 180px;
+    text-align: center;
+    margin: auto;
+    width: 300px;
+}
+
+@media screen and (max-width: 1000px) {
+    body{
+        font-size: 16px;
+    }
+    
+    article{
+        width: 100vw;
+        padding: 20px;
+    } 
+    h1{
+            font-size: 180%;
+    }
+    
+    footer > p{
+        width: 100vw;
+        padding-left: 20px;
+    }
+
+    img.hover{
+        transform: none;
+    }
+
+    .top{
+        width: 50px;
+        height: 50px;
+        top: 15px;
+        right: 15px;
+    }
+}
